@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10rem;
+    font-family: Verdana, Tahoma, sans-serif;
+    min-height: 100vh;
+}
+.search-bar{
+    margin: 2rem;
+    display: flex;
+}
+
+.search-bar input{
+    border: none;
+    background-color: #eee;
+    height: 2rem;
+    width: 200px;
+    margin-right: 5px;
+}
+.search-bar button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-bar i{
+    color: rgb(230, 203, 203);
+    font-size: 2rem;
+    margin-top: 0;
+    font-weight:  bolder;
+}
+
+.fav-container {
+    min-height: 80vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background-color: rgba(247, 244, 244, 0.959);
+    margin: 1rem;
+    padding: 3rem;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.fav-container header{
+    text-align: center;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: inherit;
+}
+
+.imgs-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: auto;
+
+}
+
+.img-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-container span {
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+.fav-container img{
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.3);
+}
+
+.random-container {
+    padding-top: 0;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+}
+.random-container header {
+    /* background-color: rgb(80, 79, 79);
+    padding: 1rem; */
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.random-img {
+    width: 100%;
+    min-height: 40vh;
+    overflow: auto;
+}
+.random-img img {
+    width: 100%;
+    height: 80vh;
+    object-fit:cover;
+
+}
+
+.random-ender {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.random-ender button {
+    font-size: 2rem;
+    font-weight: bolder;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-right: 1rem;
+}

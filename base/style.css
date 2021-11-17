@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: rebeccapurple;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Tahoma, sans-serif;
+    min-height: 100vh;
+}
+
+.quiz-container {
+    width: 600px;
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+}

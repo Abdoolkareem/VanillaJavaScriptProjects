@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital@1&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://images2.minutemediacdn.com/image/upload/c_fill,g_auto,h_1248,w_2220/f_auto,q_auto,w_1100/v1555927976/shape/mentalfloss/111798556-565x376_1.jpg);
+
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: "Arimo", sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-bottom: 1rem;
+}
+.time-container {
+    display: flex;
+
+}
+
+span {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.time-container div {
+    margin: 2rem;
+}
